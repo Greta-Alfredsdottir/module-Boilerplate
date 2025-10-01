@@ -1,0 +1,10 @@
+// 
+
+@mixin border-style($color: $primary-color){
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    border: 10px solid $color;
+    background-color: $accent-color;
+}
