@@ -1,1 +1,3 @@
-console.log(hello);
+import test from "./module/module.js"
+
+test()
